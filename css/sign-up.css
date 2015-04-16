@@ -1,0 +1,181 @@
+#sign_up {
+
+}
+#sign_up .section_header {
+  margin-bottom: 50px; }
+  #sign_up .section_header h3 {
+    margin: 0; }
+    #sign_up .section_header h3 span {
+      font-size: 18px;
+      line-height: 20px; }
+  #sign_up .header {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    color: #252527;
+    margin-top: 0px;
+    margin-bottom: 60px; }
+    #sign_up .header h4 {
+      font-size: 38px;
+      margin-top: 0;
+      margin-bottom: 25px;
+      line-height: 38px;
+      font-weight: 400;}
+
+#sign_up a.btn_sign {
+  text-transform: uppercase;
+  color: #FDFDFD;
+  font-size: 15px;
+  border-radius: 4px;
+  background: #333333;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  width: 25%;
+  display: block;
+  padding: 6px 0 6px;
+  -webkit-transition: background linear .2s, box-shadow linear .2s;
+  -moz-transition: background linear .2s, box-shadow linear .2s;
+  -o-transition: background linear .2s, box-shadow linear .2s;
+  transition: background linear .2s, box-shadow linear .2s; }
+  #sign_up a.btn_sign:hover {
+    background: #252528; }
+#sign_up .signin_box {
+	}
+  #sign_up .signin_box .box {
+    box-shadow: 0 0 5px 0 #eeeeee;
+    background: #f4f3f2;
+    /*border: 1px solid #DFDFDF;*/
+    border-radius: 10px;
+    width: 500px;
+    padding: 35px 0 30px;
+    margin: 0 auto; }
+    #sign_up .signin_box .box .box_cont {
+      margin: 0 auto;
+      width: 77%; }
+    #sign_up .signin_box .box .social {
+      margin: 0 auto 20px;
+      float: none;
+      text-align: center; }
+    #sign_up .signin_box .box .division {
+      margin: 0 auto 18px;
+      float: none;
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+      text-align: center; }
+      #sign_up .signin_box .box .division .line {
+        border-top: 1px solid #BFBFBF;
+        width: 34%;
+        top: 10px;
+        position: absolute; }
+      #sign_up .signin_box .box .division .l {
+        left: 0; }
+      #sign_up .signin_box .box .division .r {
+        right: 0; }
+      #sign_up .signin_box .box .division span {
+        color: #424242;
+        font-size: 17px; }
+    #sign_up .signin_box .box .form form {
+      margin: 0; }
+	#sign_up .signin_box .box .form input[type="text"] {
+  	  border: 1px solid #b6c9ca; 
+	  border-radius: 3px;
+      font-size: 16px;
+      margin-bottom: 16px;
+  	  color: #8b8b8b;
+  	  font-weight: normal;
+      width: 100%; 
+      height: 37px; 
+      line-height: 30px; 
+      padding: 0 10px; 
+      font-size: 16px; 
+      font-family: Raleway;}
+	#sign_up .signin_box .box .form input[type="password"] {
+  	  border: 1px solid #b6c9ca; 
+	  border-radius: 3px;
+      font-size: 16px;
+      margin-bottom: 16px;
+  	  color: #8b8b8b;
+  	  font-weight: normal;
+      width: 100%; 
+      height: 37px; 
+      line-height: 30px; 
+      padding: 0 10px; 
+      font-size: 16px; 
+      font-family: Raleway;}
+    #sign_up .signin_box .box .form input[type="submit"] {
+      text-transform: uppercase;
+      color: #fff;
+      background: #187CCC;
+      font-size: 15px;
+      margin: 0 auto;
+      display: block;
+      padding: 6px 19px;
+      border: 0 none;
+      border-radius: 3px;
+      -webkit-transition: background linear .2s, box-shadow linear .2s;
+      -moz-transition: background linear .2s, box-shadow linear .2s;
+      -o-transition: background linear .2s, box-shadow linear .2s;
+      transition: background linear .2s, box-shadow linear .2s; }
+      #sign_up .signin_box .box .form input[type="submit"]:hover {
+        background: #252528; }
+  #sign_up .remember {
+    margin: 20px 0 0 0; }
+    #sign_up .remember label.checkbox {
+      float: left;
+      font-weight: normal;
+      font-size: 14px;
+      margin: 0 30px 0px 0;
+      color: #252528;}
+    #sign_up .remember a {
+      font-size: 14px;
+      font-weight: normal;
+      -webkit-transition: all .2s;
+      -moz-transition: all .2s;
+      -ms-transition: all .2s;
+      transition: all .2s; }
+      #sign_up .remember a:hover {
+        color: #252528;
+        border-color: #252528; }
+
+.field-signup {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  
+  background: #ffffff;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmOWY5ZjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #ffffff 0%, #f9f9f9 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f9f9f9));
+  background: -webkit-linear-gradient(top, #ffffff 0%,#f9f9f9 100%);
+  background: -o-linear-gradient(top, #ffffff 0%,#f9f9f9 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%,#f9f9f9 100%);
+  background: linear-gradient(to bottom, #ffffff 0%,#f9f9f9 100%);
+  
+}
+
+.signup-detail { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; background: #fff; border-radius: 5px; box-sizing: border-box; height: 620px; margin: 50px auto; width: 560px; }
+
+
+/* Responsive
+-------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #sign_up .left_box .perk_box .perk .icos {
+    height: 66px; }
+  #sign_up .signin_box .box .social a.circle {
+    margin-right: 10px; } }
+@media (max-width: 767px) {
+  #sign_up .left_box {
+    overflow: hidden;
+    margin-bottom: 70px; }
+    #sign_up .left_box h4 {
+      text-align: center;
+      margin-bottom: 30px; }
+  #sign_up .signin_box {
+    float: none; }
+    #sign_up .signin_box .box {
+      float: none;
+      margin: 0 auto;
+      width: 100%; } }

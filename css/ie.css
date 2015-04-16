@@ -1,0 +1,22 @@
+.dropdown { background: #58898f; }
+
+.notifications li.new { background: #57969e;}
+
+.btn-default { background: #46858d }
+.btn-default:hover { background: #1a5d66 }
+
+.btn-primary { background: #4d646f }
+.btn-primary:hover { background: #25333a }
+
+.btn-alternate { background: #ea9a6a; }
+.btn-alternate:hover { background: #dc8c5d; }
+
+.nav-head > li.active > a, .nav-head > li > a:hover { background: url("../img/ie/bg-nav-head.png"); }
+
+.nav-head a > span:before { background: url("../img/sprite.png") no-repeat; }
+
+.nav-head-notifications a > span:before { background-position: 0 -250px }
+.nav-head-feedback a > span:before { background-position: -100px -250px; }
+.nav-head-account a > span:before { background-position: -50px -250px; }
+
+nav .active a, nav a:hover, .content { background: url("../img/ie/bg-nav-sidebar.png"); }

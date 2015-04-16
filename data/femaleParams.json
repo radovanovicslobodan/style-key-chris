@@ -1,0 +1,116 @@
+[
+   { "name" : "Height",
+    "default" : 165.5,
+    "min" : 135,
+    "max" : 200,
+    "description" : "Start by removing your shoes. Stand straight against a wall and place a box or book on your head, parallel to the ground. Mark the underside of the box or book with a pencil. Now measure from the floor to the marking."
+  },
+  { "name" : "Neck",
+    "default" : 29.5,
+    "min" : 25,
+    "max" : 40,
+    "description" : "Measure around the base of your neck (where a shirt collar typically sits). Hold the tape tightly but without constricting your neck."
+  },
+  { "name" : "Shoulder",
+    "default" : 33,
+    "min" : 25,
+    "max" : 45,
+    "description" : "Measure starting from one shoulder point (or the shoulder seam of your shirt), curving over the tops of your shoulder blades, and to the other shoulder point."
+  },
+  { "name" : "Bust",
+    "default" : 94,
+    "min" : 75,
+    "max" : 130,
+    "description" : "Measure around the fullest part of your bust."
+  },
+  { "name" : "UnderBust",
+    "default" : 76,
+    "min" : 70,
+    "max" : 105,
+    "description" : "Measure around your ribcage, directly under your bust where your bra band normally sits."
+  },
+  { "name" : "Bicep",
+    "default" : 28,
+    "min" : 18,
+    "max" : 45,
+    "description" : "Measure around the widest part of your bicep without flexing and without holding the tape too tightly."
+  },
+  { "name" : "Forearm",
+    "default" : 25,
+    "min" : 20,
+    "max" : 30,
+    "description" : "Measure around the widest part of the forearm, about 2 inches past the elbow"
+  },
+  { "name" : "BustPoint",
+    "default" : 25,
+    "min" : 12,
+    "max" : 40,
+    "description" : "Measure from your shoulder (where it meets your neck), down the front of your body, to the apex of your bust."
+  },
+  { "name" : "Waist",
+    "default" : 59,
+    "min" : 45,
+    "max" : 130,
+    "description" : "Measure around the narrowest part of your waist (typically at the level of your belly button)."
+  },
+  { "name" : "WaistPoint",
+    "default" : 45,
+    "min" : 30,
+    "max" : 80,
+    "description" : "Measure from your shoulder (where it meets your neck), down the front of your body, passing over the bust, to your waist level (or belly button level)."
+  },
+  { "name" : "SleeveLength",
+    "default" : 50,
+    "min" : 35,
+    "max" : 65,
+    "description" : "With your arms at your sides and slightly bent, measure starting at the shoulder point (or the shoulder seam of your shirt), along your upper arm, past your elbow, and down your forearm to your wrist bone."
+  },
+  { "name" : "Wrist",
+    "default" : 14,
+    "min" : 8,
+    "max" : 20,
+    "description" : "Measure around your wrist just above the wrist bone."
+  },
+  { "name" : "Hips",
+    "default" : 96,
+    "min" : 70,
+    "max" : 130,
+    "description" : "Measure around the widest part of your hips (typically the widest part of your buttocks)."
+  },
+  { "name" : "Outseam",
+    "default" : 103,
+    "min" : 60,
+    "max" : 125,
+    "description" : "Measure from the level of the waist (or belly button), along the outside of your leg, and down to the floor at the outside of your foot. Make sure you're not wearing shoes."
+  },
+  { "name" : "Thigh",
+    "default" : 53,
+    "min" : 35,
+    "max" : 65,
+    "description" : "Measure around the fullest part of the thigh (typically just below the crotch) without holding the tape too tightly."
+  },
+  { "name" : "Inseam",
+    "default" : 80,
+    "min" : 50,
+    "max" : 120,
+    "description" : "Measure from the underside of your crotch, along the inside of your leg, and down to the floor on the inside of your ankle. Make sure you're not wearing shoes."
+  },
+  { "name" : "Calf",
+    "default" : 36,
+    "min" : 25,
+    "max" : 50,
+    "description" : "Measure at the widest part of the calf."
+  },
+  { "name" : "Knee",
+    "default" : 33,
+    "min" : 25,
+    "max" : 45,
+    "description" : "Measure the circumference around the centre part of your knee."
+  },
+  { "name" : "FootLength",
+    "default" : 25.9,
+    "min" : 20,
+    "max" : 35,
+    "description" : "The distance between the heel and the most outstretched toe. Imagine drawing two parallel lines: one tangential to the most posterior part of the heel and one tangential to the tip of the most anterior toe. Length is distance between these two lines. Note: this is not shoe size."
+  }
+]

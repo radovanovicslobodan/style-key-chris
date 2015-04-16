@@ -1,0 +1,15 @@
+
+/* titles */
+
+h1 { font-size: 37px; font-weight: 300; margin: 0 0 35px 0; }
+
+.page-title h1 { float: left; line-height: 50px; margin: 0; }
+
+.page-title h1:before { background: #cfd6d6; border-radius: 50px; box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2); content: ""; display: inline-block; height: 50px; margin-right: 15px; vertical-align: middle; width: 50px; background: #cfd6d6 url("../img/warning.png") no-repeat; }
+
+.page-title h1.page-title-error:before { background-position: 8px 5px; }
+
+
+h2 { font-size: 18px; font-weight: 300; }
+
+h2.error-message { padding-bottom: 5px; }

@@ -1,0 +1,13 @@
+.btn-default { background: #46858d }
+.btn-default:hover { background: #1a5d66 }
+
+.btn-primary { background: #4d646f }
+.btn-primary:hover { background: #25333a }
+
+.nav-social .facebook a { background: transparent url("../img/sprite-landing.png") no-repeat -510px 0; }
+.nav-social .twitter a { background: transparent url("../img/sprite-landing.png") no-repeat -540px 0;  }
+.nav-social .google a { background: transparent url("../img/sprite-landing.png") no-repeat -480px 0;  }
+
+.intro { background: url("../img/ie/bg-landing.png"); }
+
+.availability a { background: #f4f4f5 }

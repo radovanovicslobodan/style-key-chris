@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  	<title>Feedback</title>
+  	<link rel="shortcut icon" href="img/stylekey.ico">
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="css/style.css" type="text/css">
+  	<link rel="stylesheet" href="css/jquery.custombox.css" type="text/css">
+  	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,700,600' rel='stylesheet' type='text/css'>
+  	<!--[if lt IE 9]>
+  	  <link rel="stylesheet" href="css/ie.css" type="text/css">
+  	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	  <script src="js/respond.min.js"></script>
+  	  <script src="js/selectivizr.min.js"></script>
+  	<![endif]-->
+</head>
+    
+<body>
+
+<header class="clearfix">
+
+  <ul class="nav-head clearfix">
+    <li class="dropdown-link nav-head-notifications">
+      <a href="#"><span>Notifications <span class="count">3</span></span></a>
+      <div class="dropdown nav-head-notifications-info">
+        <ul class="notifications">
+          <li class="friend-request new">
+            Terry M. would like to add you as a friend<br>
+            <a href="#" class="btn btn-dropdown">Accept</a> <a href="#" class="btn btn-dropdown">Not now</a>
+          </li>
+          <li class="new-feedback">
+            Ermenegildo Zegna Belt has received new feedback
+          </li>
+          <li class="friend-added">
+            Joan Smith has been added as a friend
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="dropdown-link nav-head-feedback">
+      <a href="#"><span>Feedback<span class="count">2</span></span></a>
+      <div class="dropdown nav-head-feedback-info">
+        <ul class="feedback-requests">
+          <li>
+            <a href="#">
+              <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+              <h2>Alejandra Galvan</h2>
+              <p>What do you think of this item?</p>
+              <p class="date">Yesterday</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+              <h2>Alejandra Galvan</h2>
+              <p>What do you think of this item?</p>
+              <p class="date">Yesterday</p>
+            </a>
+          </li>
+        </ul>
+        <p class="view-all-requests"><a href="#">View all feedback requests</a></p>        
+      </div>
+    </li>
+    <li class="dropdown-link nav-head-account">
+      <a href="#"><span>Account</span></a>
+      <div class="dropdown nav-head-account-info">
+        <ul class="subnav">
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li class="logout"><a href="#">Log Out</a></li>
+        </ul>      
+      </div>
+    </li>
+  </ul>
+
+</header>
+
+<div class="wrapper">
+
+  <div class="sidebar">
+  
+    <div class="logo"><img src="img/logo.png"></div>
+    
+    <nav>
+      <ul>
+        <li class="nav-shop"><a href="shop-welcome.html">Shop</a></li>
+        <li class="nav-feedback active"><a href="#">Feedback</a></li>
+        <li class="nav-profile"><a href="profile.html">Profile</a></li>
+        <li class="nav-measurements"><a href="measurements.html">Measurements</a></li>
+        <li class="nav-style"><a href="style.html">Style</a></li>
+        <li class="nav-friends"><a href="friends.html">Friends</a></li>
+        <li class="nav-settings"><a href="settings.html">Settings</a></li>
+      </ul>
+    </nav>
+  
+  </div>
+  
+  <div class="container"> 
+    <div class="content">
+      <div class="inner clearfix">
+    
+        <div class="page-title">
+          <h1 class="page-title-feedback">Feedback</h1>
+          <ul class="filters">
+            <li><a href="#" class="btn btn-default">All</a></li>
+            <li><a href="#" class="btn btn-primary btn-icon-sent">Sent</a></li>
+            <li><a href="#" class="btn btn-alternate btn-icon-received">Received</a></li>
+          </ul>
+        </div>
+        
+        <div class="items-feedback">
+        
+          <div class="item-feedback sent feedbackchoice">
+            <a href="#">
+              <p class="photo"><img src="img/feedback-tie.png"></p>
+              <div class="info">
+                <h3>Ermenegildo Zegna Belt</h3>
+                <p class="date">Yesterday</p>
+              </div>
+              <p class="label new-message">New message</p>
+            </a>
+          </div>
+          
+          <div class="item-feedback sent feedbackvote">
+            <a href="#">
+              <p class="photo"><img src="img/feedback-tie.png"></p>
+              <div class="info">
+                <h3>John Jones</h3>
+                <p class="date">Yesterday</p>
+              </div>
+              <p class="label new-comment">New comment or vote</p>
+            </a>
+          </div>
+          
+          <div class="item-feedback received">
+            <a href="#">
+              <p class="photo"><img src="img/feedback-tie.png"></p>
+              <div class="info">
+                <h3>John Jones</h3>
+                <p class="date">Yesterday</p>
+              </div>
+            </a>
+          </div>
+          
+          <div class="item-feedback sent">
+            <a href="#">
+              <p class="photo"><img src="img/feedback-tie.png"></p>
+              <div class="info">
+                <h3>John Jones</h3>
+                <p class="date">Yesterday</p>
+              </div>
+            </a>
+          </div>
+          
+          <div class="item-feedback received">
+            <a href="#">
+              <p class="photo"><img src="img/feedback-tie.png"></p>
+              <div class="info">
+                <h3>John Jones</h3>
+                <p class="date">Yesterday</p>
+              </div>
+            </a>
+          </div>
+          
+          <div class="item-feedback received">
+            <a href="#">
+              <p class="photo"><img src="img/feedback-tie.png"></p>
+              <div class="info">
+                <h3>John Jones</h3>
+                <p class="date">Yesterday</p>
+              </div>
+            </a>
+          </div>
+          
+          <div class="item-feedback sent">
+            <a href="#">
+              <p class="photo"><img src="img/feedback-tie.png"></p>
+              <div class="info">
+                <h3>John Jones</h3>
+                <p class="date">Yesterday</p>
+              </div>
+            </a>
+          </div>
+          
+          <div class="item-feedback received">
+            <a href="#">
+              <p class="photo"><img src="img/feedback-tie.png"></p>
+              <div class="info">
+                <h3>John Jones</h3>
+                <p class="date">Yesterday</p>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+                   
+      </div>
+    </div>  
+  </div>
+
+</div>
+
+<div id="feedbackchoice" style="display: none;">
+  <div class="feedback-detail">
+  
+    <div class="feedback-detail-title">
+  
+      <h2>Which item do you prefer?</h2>
+      
+      <p class="close"><a href="#">Close</a></p>
+      
+    </div>
+    
+    <div class="item-feedback-choice">
+    
+      <ul class="choices">
+        <li class="choice-1">
+          <p class="photo"><img src="img/item-thumb.jpg"></p>
+          <h3>Milly</h3>
+          <p class="radio-field">
+            <span class="radio"><input type="radio"></span>
+            <span class="count"><span style="width: 60%"></span></span>
+          </p>
+        </li>
+        <li class="choice-2">
+          <p class="photo"><img src="img/item-thumb.jpg"></p>
+          <h3>Pink Tartan</h3>
+          <p class="radio-field">
+            <span class="radio"><input type="radio"></span>
+            <span class="count"><span style="width: 30%"></span></span>
+          </p>
+        </li>
+        <li class="choice-3">
+          <p class="photo"><img src="img/item-thumb.jpg"></p>
+          <h3>Prada</h3>
+          <p class="radio-field">
+            <span class="radio"><input type="radio"></span>
+            <span class="count"><span style="width: 10%"></span></span>
+          </p>
+        </li>
+      </ul>
+  
+    </div>
+    
+    <div class="tab-wrap">
+    
+      <ul class="tabs clearfix">
+        <li><a href="#comments">Comments</a></li>
+        <li><a href="#votes">Votes</a></li>
+      </ul>
+      
+      <div class="tab-content" id="comments">
+      
+        <div id="scrollbar-comments" class="scrollbar-wrap">
+          <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+          <div class="viewport">
+            <div class="overview">
+  
+              <ul class="comments">
+                <li>
+                  <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                  <div class="info">
+                    <h3>Firstname Lastname</h3>
+                    <p class="date">11:07pm</p>
+                    <div class="clear"></div>
+                    <p>I love this!</p>
+                  </div>
+                </li>
+                <li>
+                  <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                  <div class="info">
+                    <h3>Firstname Lastname</h3>
+                    <p class="date">11:07pm</p>
+                    <div class="clear"></div>
+                    <p>I love this!</p>
+                  </div>
+                </li>
+                <li>
+                  <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                  <div class="info">
+                    <h3>Firstname Lastname</h3>
+                    <p class="date">11:07pm</p>
+                    <div class="clear"></div>
+                    <p>I love this!</p>
+                  </div>
+                </li>
+              </ul>
+  
+            </div>
+            <div class="bg"></div>
+          </div>
+        </div>
+        
+        <div class="comment-form">
+          <div class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></div>
+          <div class="field-textarea"><textarea></textarea></div>
+        </div>
+      
+      </div>
+      
+        <div class="tab-content" id="votes">
+            
+          <div id="scrollbar-votes" class="scrollbar-wrap">
+              <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+              <div class="viewport">
+                  <div class="overview">
+                      
+                      <h3 class="choice-title choice-title-1"><img src="img/item-thumb.jpg"></h3>
+                      
+                      <ul class="voters">
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum longer name</h4>
+                        </li>
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum</h4>
+                        </li>
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum</h4>
+                        </li>
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum</h4>
+                        </li>
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum</h4>
+                        </li>               
+                      </ul>
+      
+                      <div class="divider-sm"></div>
+                      
+                      <h3 class="choice-title choice-title-2"><img src="img/item-thumb.jpg"></h3>
+                      
+                      <ul class="voters">
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum longer name</h4>
+                        </li>
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum</h4>
+                        </li>
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum</h4>
+                        </li>
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum</h4>
+                        </li>
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum</h4>
+                        </li>               
+                      </ul>
+                      
+                      <div class="divider-sm"></div>
+                      
+                      <h3 class="choice-title choice-title-3"><img src="img/item-thumb.jpg"></h3>
+                      
+                      <ul class="voters">
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum longer name</h4>
+                        </li>
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum</h4>
+                        </li>
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum</h4>
+                        </li>
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum</h4>
+                        </li>
+                        <li>
+                          <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                          <h4>Lorem Ipsum</h4>
+                        </li>               
+                      </ul>
+                      
+                  </div>
+              </div>
+          </div>
+        
+        </div>
+      
+    </div>
+  
+  </div>
+</div>
+
+<div id="feedbackvote" style="display: none;">
+  <div class="feedback-detail">
+  
+    <div class="feedback-detail-title">
+  
+      <h2>What do you think of this item?</h2>
+      
+      <p class="close"><a href="#">Close</a></p>
+      
+    </div>
+    
+    <div class="item-feedback-detail">
+    
+      <p class="photo"><img src="img/feedback-tie.png"></p>
+      
+      <div class="info">
+        <h3>John Jones</h3>
+        <p class="date">Yesterday</p>
+      </div>
+      
+      <ul class="vote">
+        <li>
+          <a href="#" class="btn-vote btn-vote-yes">Like</a>
+          <span class="vote-count vote-count-yes"><span style="width: 70%"></span></span>
+        </li>
+        <li>
+          <a href="#" class="btn-vote btn-vote-no">Don't like</a>
+          <span class="vote-count vote-count-no"><span style="width: 30%"></span></span>
+        </li>
+      </ul>
+      
+    </div>
+    
+    <div class="tab-wrap">
+    
+      <ul class="tabs clearfix">
+        <li><a href="#comments">Comments</a></li>
+        <li><a href="#votes">Votes</a></li>
+      </ul>
+      
+      <div class="tab-content" id="comments">
+      
+        <div id="scrollbar-comments" class="scrollbar-wrap">
+          <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+          <div class="viewport">
+            <div class="overview">
+  
+              <ul class="comments">
+                <li>
+                  <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                  <div class="info">
+                    <h3>Firstname Lastname</h3>
+                    <p class="date">11:07pm</p>
+                    <div class="clear"></div>
+                    <p>I love this!</p>
+                  </div>
+                </li>
+                <li>
+                  <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                  <div class="info">
+                    <h3>Firstname Lastname</h3>
+                    <p class="date">11:07pm</p>
+                    <div class="clear"></div>
+                    <p>I love this!</p>
+                  </div>
+                </li>
+                <li>
+                  <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                  <div class="info">
+                    <h3>Firstname Lastname</h3>
+                    <p class="date">11:07pm</p>
+                    <div class="clear"></div>
+                    <p>I love this!</p>
+                  </div>
+                </li>
+              </ul>
+  
+            </div>
+            <div class="bg"></div>
+          </div>
+        </div>
+        
+        <div class="comment-form">
+          <div class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></div>
+          <div class="field-textarea"><textarea></textarea></div>
+        </div>
+      
+      </div>
+      
+      <div class="tab-content" id="votes">
+      
+        <div id="scrollbar-votes" class="scrollbar-wrap">
+            <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+            <div class="viewport">
+                <div class="overview">
+                    
+                    <h3 class="btn-vote btn-vote-yes">Like</h3>
+                    
+                    <ul class="voters">
+                      <li>
+                        <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                        <h4>Lorem Ipsum longer name</h4>
+                      </li>
+                      <li>
+                        <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                        <h4>Lorem Ipsum</h4>
+                      </li>
+                      <li>
+                        <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                        <h4>Lorem Ipsum</h4>
+                      </li>
+                      <li>
+                        <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                        <h4>Lorem Ipsum</h4>
+                      </li>
+                      <li>
+                        <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                        <h4>Lorem Ipsum</h4>
+                      </li>               
+                    </ul>
+  
+                    <div class="divider-sm"></div>
+                    
+                    <h3 class="btn-vote btn-vote-no">Don't like</h3>
+                    
+                    <ul class="voters">
+                      <li>
+                        <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                        <h4>Lorem Ipsum</h4>
+                      </li>              
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+      
+      </div>
+      
+    </div>
+  
+  </div>
+  
+  <script>
+
+  </script>
+</div>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.custombox.js"></script>
+<script src="js/jquery.tinyscrollbar.min.js"></script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+  $(function () {
+    $('.feedbackchoice').on('click', function ( e ) {
+      $.fn.custombox( this, {
+        url: 'feedback-choice-detail.html',
+        effect: 'slide',
+        position: 'center'
+      });
+      e.preventDefault();
+    });
+    $('.feedbackvote').on('click', function ( e ) {
+      $.fn.custombox( this, {
+        url: 'feedback-vote-detail.html',
+        effect: 'slide',
+        position: 'center'
+      });
+      e.preventDefault();
+    });
+  });
+</script>
+
+</body>
+</html>

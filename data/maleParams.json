@@ -1,0 +1,110 @@
+[
+  { "name": "Height",
+    "default" : 183.7,
+    "min" : 145,
+    "max" : 205,
+    "description" : "Start by removing your shoes. Stand straight against a wall and place a box or book on your head, parallel to the ground. Mark the underside of the box or book with a pencil. Now measure from the floor to the marking."
+  },
+  { "name": "Neck",
+    "default" : 40,
+    "min" : 30,
+    "max": 50,
+    "description" : "Measure around the base of your neck (where a shirt collar typically sits). Hold the tape tightly but without constricting your neck."
+  },
+  { "name": "Chest",
+    "default" : 109,
+    "min" : 80,
+    "max" : 150,
+    "description" : "Measure around the fullest part of the chest, under the armpits, and over your shoulder blades."
+  },
+  { "name": "Shoulder",
+    "default" : 46.5,
+    "min" : 35,
+    "max" : 55,
+    "description" : "Measure starting from one shoulder point (or the shoulder seam of your shirt), curving over the tops of your shoulder blades, and to the other shoulder point."
+  },
+  { "name": "SleeveLength",
+    "default" : 53,
+    "min" : 40,
+    "max" : 70,
+    "description" : "With your arms at your sides and slightly bent, measure starting at the shoulder point (or the shoulder seam of your shirt), along your upper arm, past your elbow, and down your forearm to your wrist bone."
+  },
+  { "name": "Bicep",
+    "default" : 40,
+    "min" : 25,
+    "max" : 60,
+    "description" : "Measure around the widest part of your bicep without flexing and without holding the tape too tightly."
+  },
+  { "name": "Forearm",
+    "default" : 33,
+    "min" : 25,
+    "max" : 40,
+    "description" : "Measure around the widest part of the forearm, about 2 inches past the elbow."
+  },
+  { "name": "Wrist",
+    "default" : 22,
+    "min" : 15,
+    "max" : 35,
+    "description" : "Measure around your wrist just above the wrist bone."
+  },
+  { "name": "Waist",
+    "default" : 78,
+    "min" : 65,
+    "max" : 130,
+    "description" : "Measure around the narrowest part of your waist (typically at the level of your belly button)."
+  },
+  { "name": "Waistcoat",
+    "default" : 62.5,
+    "min" : 45,
+    "max" : 80,
+    "description" : "Measure from your shoulder (where it meets your neck), down the front of your body, to the bottom of the waistband."
+  },
+  { "name": "PantsWaistband",
+    "default" : 84,
+    "min" : 60,
+    "max" : 130,
+    "description" : "Measure horizontally around your waist, just below the top of the hip bone."
+  },
+  { "name": "Hips",
+    "default" : 92.5,
+    "min" : 80,
+    "max" : 130,
+    "description" : "Measure around the widest part of your hips (typically the widest part of your buttocks)."
+  },
+  { "name": "Outseam",
+    "default" : 111.5,
+    "min" : 80,
+    "max" : 125,
+    "description" : "Measure from the top of the waistband (just below the top of the hip bone), along the outside of your leg, and down to the floor at the outside of your foot."
+  },
+  { "name": "Inseam",
+    "default" : 84,
+    "min" : 60,
+    "max" : 130,
+    "description" : "Measure from the underside of your crotch, along the inside of your leg, and down to the floor on the inside of your ankle. Make sure you're not wearing shoes."
+  },
+  { "name": "Thigh",
+    "default" : 68,
+    "min" : 45,
+    "max" : 100,
+    "description" : "Measure around the fullest part of the thigh (typically just below the crotch) without holding the tape too tightly."
+  },
+  { "name": "Knee",
+    "default" : 38,
+    "min" : 25,
+    "max" : 60,
+    "description" : "Measure the circumference around the centre part of your knee."
+  },
+  { "name": "Calf",
+    "default" : 45,
+    "min" : 36,
+    "max" : 60,
+    "description" : "Measure at the widest part of the calf"
+  },
+  { "name": "FootLength",
+    "default" : 31,
+    "min" : 25,
+    "max" : 40,
+    "description" : "The distance between the heel and the most outstretched toe. Imagine drawing two parallel lines: one tangential to the most posterior part of the heel and one tangential to the tip of the most anterior toe. Length is distance between these two lines. Note: this is not shoe size."
+  }
+]

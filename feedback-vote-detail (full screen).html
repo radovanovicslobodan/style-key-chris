@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  	<title>Vote Detail - Feedback - Stylekey</title>
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="css/style.css" type="text/css">
+  	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,700,600' rel='stylesheet' type='text/css'>
+  	<!--[if lt IE 9]>
+  	  <link rel="stylesheet" href="css/ie.css" type="text/css">
+  	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	  <script src="js/respond.min.js"></script>
+  	  <script src="js/selectivizr.min.js"></script>
+  	<![endif]-->
+</head>
+    
+<body>
+
+<div class="feedback-detail">
+
+  <div class="feedback-detail-title">
+
+    <h2>What do you think of this item?</h2>
+    
+    <p class="close"><a href="#">Close</a></p>
+    
+  </div>
+  
+  <div class="item-feedback-detail">
+  
+    <p class="photo"><img src="img/feedback-tie.png"></p>
+    
+    <div class="info">
+      <h3>John Jones</h3>
+      <p class="date">Yesterday</p>
+    </div>
+    
+    <ul class="vote">
+      <li>
+        <a href="#" class="btn-vote btn-vote-yes">Like</a>
+        <span class="vote-count vote-count-yes"><span style="width: 70%"></span></span>
+      </li>
+      <li>
+        <a href="#" class="btn-vote btn-vote-no">Don't like</a>
+        <span class="vote-count vote-count-no"><span style="width: 30%"></span></span>
+      </li>
+    </ul>
+    
+  </div>
+  
+  <div class="tab-wrap">
+  
+    <ul class="tabs clearfix">
+      <li><a href="#comments">Comments</a></li>
+      <li><a href="#votes">Votes</a></li>
+    </ul>
+    
+    <div class="tab-content" id="comments">
+    
+      <div id="scrollbar-comments" class="scrollbar-wrap">
+        <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+        <div class="viewport">
+          <div class="overview">
+
+            <ul class="comments">
+              <li>
+                <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                <div class="info">
+                  <h3>Firstname Lastname</h3>
+                  <p class="date">11:07pm</p>
+                  <div class="clear"></div>
+                  <p>I love this!</p>
+                </div>
+              </li>
+              <li>
+                <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                <div class="info">
+                  <h3>Firstname Lastname</h3>
+                  <p class="date">11:07pm</p>
+                  <div class="clear"></div>
+                  <p>I love this!</p>
+                </div>
+              </li>
+              <li>
+                <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                <div class="info">
+                  <h3>Firstname Lastname</h3>
+                  <p class="date">11:07pm</p>
+                  <div class="clear"></div>
+                  <p>I love this!</p>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+          <div class="bg"></div>
+        </div>
+      </div>
+      
+      <div class="comment-form">
+        <div class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></div>
+        <div class="field-textarea"><textarea></textarea></div>
+      </div>
+    
+    </div>
+    
+    <div class="tab-content" id="votes">
+    
+      <div id="scrollbar-votes" class="scrollbar-wrap">
+          <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+          <div class="viewport">
+              <div class="overview">
+                  
+                  <h3 class="btn-vote btn-vote-yes">Like</h3>
+                  
+                  <ul class="voters">
+                    <li>
+                      <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                      <h4>Lorem Ipsum longer name</h4>
+                    </li>
+                    <li>
+                      <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                      <h4>Lorem Ipsum</h4>
+                    </li>
+                    <li>
+                      <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                      <h4>Lorem Ipsum</h4>
+                    </li>
+                    <li>
+                      <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                      <h4>Lorem Ipsum</h4>
+                    </li>
+                    <li>
+                      <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                      <h4>Lorem Ipsum</h4>
+                    </li>               
+                  </ul>
+
+                  <div class="divider-sm"></div>
+                  
+                  <h3 class="btn-vote btn-vote-no">Don't like</h3>
+                  
+                  <ul class="voters">
+                    <li>
+                      <p class="photo"><img src="img/userpic.png" class="userpic" alt="Firstname Lastname" width="47" height="47"></p>
+                      <h4>Lorem Ipsum</h4>
+                    </li>              
+                  </ul>
+                  
+              </div>
+          </div>
+      </div>
+    
+    </div>
+    
+  </div>
+
+</div>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+
+<script src="js/jquery.tinyscrollbar.min.js"></script>
+
+<script src="js/main.js"></script>
+
+<script>
+
+$('#scrollbar-votes').tinyscrollbar();
+$('#scrollbar-comments').tinyscrollbar();
+
+</script>
+
+</body>
+</html>
