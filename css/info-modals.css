@@ -1,0 +1,15 @@
+.info-btn {
+	display: inline-block;
+	width: 21px;
+	margin-left: 5px;
+	padding-right: 1px;
+	line-height: 22px;
+	border: 1px solid #3f6caf;
+	border-radius: 12px;
+	font-style: italic;
+	text-align: center;
+	color: #3f6caf;
+	cursor: pointer;
+}
+.info-btn:hover {border: 1px solid #809b9c;}
+						
