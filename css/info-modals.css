@@ -12,4 +12,15 @@
 	cursor: pointer;
 }
 .info-btn:hover {border: 1px solid #809b9c;}
+.custombox-modal-content {
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #767678;
+  	-webkit-border-radius: 5px; 
+  	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+}
 						

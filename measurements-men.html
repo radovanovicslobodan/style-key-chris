@@ -9,6 +9,7 @@
   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.custombox.css" type="text/css">
   	<link rel="stylesheet" href="css/info-modals.css" type="text/css">
   	<link rel="stylesheet" href="css/dropkick.css" type="text/css">
   	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,700,600' rel='stylesheet' type='text/css'>
@@ -23,7 +24,6 @@
 <body>
 
 <header class="clearfix">
-
   <ul class="nav-head clearfix">
     <li class="dropdown-link nav-head-notifications">
       <a href="#"><span>Notifications <span class="count">3</span></span></a>
@@ -162,7 +162,14 @@
                 <div class="form-control clearfix">
                   <label>Weight</label>
                   <input type="text" id="Weight" class="field-measurements" placeholder="lbs">
-                  <span class="info-btn">i</span>
+                  <a href="#first-modal" class="info-btn weight-m">i</a>
+                </div>
+
+
+
+
+                <div id="first-modal" style="display: none;">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quam quia, facilis laborum ducimus ipsam. Incidunt, distinctio quo nisi quibusdam est pariatur officia enim quasi deserunt! Doloribus at voluptatibus, praesentium!</p>                    
                 </div>
                 
                 <div class="form-control clearfix">
@@ -307,6 +314,7 @@
 
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/jquery.poshytip.min.js"></script>
+<script src="js/jquery.custombox.js"></script>
 <script src="js/jquery.dropkick-min.js"></script>
 <script src="js/main.js"></script>
 
@@ -341,5 +349,19 @@
   var gender = "male";
 </script>
 
+
+<script type="text/javascript">
+  $(function () {
+    $('.weight-m').on('click', function ( e ) {
+      $.fn.custombox( this, {
+        effect: 'fadein',
+        position: 'center',
+        overlayColor: '#fff',
+        overlayOpacity: 0.5
+      });
+      e.preventDefault();
+    });
+  });
+</script>
 </body>
 </html>
