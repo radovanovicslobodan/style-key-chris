@@ -80,6 +80,15 @@ $(function () {
     });
     e.preventDefault();
   });
+  $('.footlength-m').on('click', function ( e ) {
+    $.fn.custombox( this, {
+      effect: 'fadein',
+      position: 'center',
+      overlayColor: '#fff',
+      overlayOpacity: 0.5
+    });
+    e.preventDefault();
+  });
   $('.jacketlength-m').on('click', function ( e ) {
     $.fn.custombox( this, {
       effect: 'fadein',
@@ -107,6 +116,24 @@ $(function () {
     });
     e.preventDefault();
   });
+  $('.waistcoat-m').on('click', function ( e ) {
+    $.fn.custombox( this, {
+      effect: 'fadein',
+      position: 'center',
+      overlayColor: '#fff',
+      overlayOpacity: 0.5
+    });
+    e.preventDefault();
+  });
+  $('.pantswaistband-m').on('click', function ( e ) {
+    $.fn.custombox( this, {
+      effect: 'fadein',
+      position: 'center',
+      overlayColor: '#fff',
+      overlayOpacity: 0.5
+    });
+    e.preventDefault();
+  });
   $('.rise-m').on('click', function ( e ) {
     $.fn.custombox( this, {
       effect: 'fadein',
@@ -126,6 +153,24 @@ $(function () {
     e.preventDefault();
   });
   $('.knee-m').on('click', function ( e ) {
+    $.fn.custombox( this, {
+      effect: 'fadein',
+      position: 'center',
+      overlayColor: '#fff',
+      overlayOpacity: 0.5
+    });
+    e.preventDefault();
+  });
+  $('.headsize-m').on('click', function ( e ) {
+    $.fn.custombox( this, {
+      effect: 'fadein',
+      position: 'center',
+      overlayColor: '#fff',
+      overlayOpacity: 0.5
+    });
+    e.preventDefault();
+  });
+  $('.glovesize-m').on('click', function ( e ) {
     $.fn.custombox( this, {
       effect: 'fadein',
       position: 'center',
