@@ -13,14 +13,58 @@
 }
 .info-btn:hover {border: 1px solid #809b9c;}
 .custombox-modal-content {
+	width: 600px;
 	background: #fff;
 	padding: 20px;
 	border: 1px solid #767678;
-  	-webkit-border-radius: 5px; 
-  	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
-	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+  	-webkit-border-radius: 3px; 
+  	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.2);
+	box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.2);
+	overflow: hidden;
 }
-						
+.col-1-2 {
+	float: left;
+	width: 49%;
+	font-size: 16px;
+	color: #737373;
+	backface-visibility: hidden;
+	transform: translateZ(0);
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+.col-1-2 img {
+	width: 100%;
+	height: auto;
+}
+.col-1-2 h3 {
+	position: relative;
+	padding-left: 15px;
+  	margin-bottom: 40px;
+	font-size: 20px;
+  	color: #000;
+}
+.col-1-2 h3:before {
+	position: absolute;
+	left: -5px;
+	content: "";
+	display: inline-block;
+	width: 14px;
+	height: 23px;
+	background: transparent url(../img/error.png) -204px -50px;
+}
+.col-1-2 {
+	
+}
+.modal-close { 
+	position: absolute;
+	  top: -6px;
+	  right: 0;
+	  padding: 0 6px;
+	  background: #396b6c;
+	  font-size: 40px;
+	  color: #fff;
+	  line-height: 40px;
+	  cursor: pointer;
+}						
