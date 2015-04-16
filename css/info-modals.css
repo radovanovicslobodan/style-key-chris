@@ -13,23 +13,24 @@
 }
 .info-btn:hover {border: 1px solid #809b9c;}
 .custombox-modal-content {
-	width: 600px;
+	width: 540px;
 	background: #fff;
 	padding: 20px;
 	border: 1px solid #767678;
   	-webkit-border-radius: 3px; 
   	-moz-border-radius: 3px;
 	border-radius: 3px;
-	-webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.2);
-	-moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.2);
-	box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.1);
+	box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.1);
 	overflow: hidden;
 }
 .col-1-2 {
 	float: left;
 	width: 49%;
-	font-size: 16px;
+	font-size: 14px;
 	color: #737373;
+	/*chrome blur text fix*/
 	backface-visibility: hidden;
 	transform: translateZ(0);
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -54,8 +55,8 @@
 	height: 23px;
 	background: transparent url(../img/error.png) -204px -50px;
 }
-.col-1-2 {
-	
+.col-1-2 p {
+	line-height: 20px;	
 }
 .modal-close { 
 	position: absolute;

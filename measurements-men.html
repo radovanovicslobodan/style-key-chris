@@ -162,13 +162,10 @@
                 <div class="form-control clearfix">
                   <label>Weight</label>
                   <input type="text" id="Weight" class="field-measurements" placeholder="lbs">
-                  <a href="#first-modal" class="info-btn weight-m">i</a>
+                  <a href="#m-weight-modal" class="info-btn weight-m">i</a>
                 </div>
 
-
-
-
-                <div id="first-modal" style="display: none;">
+                <div id="m-weight-modal" style="display: none;">
                   <div class="col-1-2">
                     <img src="img/User_Instruction_Images/M-Height-10.jpg" alt="weight">
                   </div>
@@ -182,7 +179,18 @@
                 <div class="form-control clearfix">
                   <label title="Measure around the base of your neck (where a shirt collar typically sits). Hold the tape tightly but without constricting your neck.">Neck</label>
                   <input type="text" id="Neck" class="field-measurements" placeholder="inches">
-                  <span class="info-btn">i</span>
+                  <a href="#m-neck-modal" class="info-btn neck-m">i</a>
+                </div>
+
+                <div id="m-neck-modal" style="display: none;">
+                  <div class="col-1-2">
+                    <img src="img/User_Instruction_Images/M-Neck-28.jpg" alt="neck">
+                  </div>
+                  <div class="col-1-2">
+                    <h3>Measurement instructions</h3> 
+                    <p>Measure around the base of your neck (where a shirt collar typically sits). Hold the tape tightly but without constricting your neck.</p>
+                  </div>   
+                  <span class="modal-close" onclick="$.fn.custombox('close');">&times;</span>             
                 </div>
                 
                 <div class="form-control clearfix">
@@ -360,6 +368,15 @@
 <script type="text/javascript">
   $(function () {
     $('.weight-m').on('click', function ( e ) {
+      $.fn.custombox( this, {
+        effect: 'fadein',
+        position: 'center',
+        overlayColor: '#fff',
+        overlayOpacity: 0.5
+      });
+      e.preventDefault();
+    });
+    $('.neck-m').on('click', function ( e ) {
       $.fn.custombox( this, {
         effect: 'fadein',
         position: 'center',
