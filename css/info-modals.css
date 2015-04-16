@@ -4,11 +4,11 @@
 	margin-left: 5px;
 	padding-right: 1px;
 	line-height: 22px;
-	border: 1px solid #3f6caf;
+	border: 1px solid #1F616A;
 	border-radius: 12px;
 	font-style: italic;
 	text-align: center;
-	color: #3f6caf;
+	color: #1F616A;
 	cursor: pointer;
 }
 .info-btn:hover {border: 1px solid #809b9c;}
@@ -47,25 +47,32 @@
   	color: #000;
 }
 .col-1-2 h3:before {
-	position: absolute;
-	left: -5px;
-	content: "";
 	display: inline-block;
+	position: absolute;
+	content: "";
+	left: -5px;
 	width: 14px;
 	height: 23px;
 	background: transparent url(../img/error.png) -204px -50px;
 }
-.col-1-2 p {
-	line-height: 20px;	
+.col-1-2 ol {padding-left: 13px;}
+.col-1-2 ol li {
+	line-height: 16px;
+	margin-bottom: 10px;	
 }
 .modal-close { 
 	position: absolute;
-	  top: -6px;
-	  right: 0;
-	  padding: 0 6px;
-	  background: #396b6c;
-	  font-size: 40px;
-	  color: #fff;
-	  line-height: 40px;
-	  cursor: pointer;
-}						
+	width: 35px;
+	top: -6px;
+	right: 0;
+	padding-left: 1px;
+	background: #396b6c;
+	font-size: 40px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+}	
+.modal-close:hover {
+	background: #4C8687;
+} 					
