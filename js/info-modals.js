@@ -1,7 +1,7 @@
 $(function () {
   var modalSettings = {
     effect : 'fadein',
-    position :'center, bottom',
+    // position :'center, center',
     overlayColor :'#fff',
     overlayOpacity :'0.5'
   };
