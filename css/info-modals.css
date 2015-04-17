@@ -14,6 +14,12 @@
 .custombox-show, .custombox-close {left: 38% !important;}
 @-moz-document url-prefix() {
     .custombox-show, .custombox-close {left: 56% !important;}
+    /* 3d image (canvas) fix for firefox */
+    canvas {
+    	width: 1400px !important;
+    	margin-top: -100px;
+    	margin-left: -500px;
+	}
 }
 .info-btn:hover {border: 1px solid #809b9c;}
 .custombox-modal-content {

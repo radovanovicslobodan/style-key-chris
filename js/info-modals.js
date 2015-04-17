@@ -8,7 +8,7 @@ $(function () {
 
   // men
 
-  var $modItemsMan = $('.neck-m, .shoulder-m, .chest-m, .sleevelength-m, .waist-m, .upperbody-m, .waisband-m, .hips-m, .outseam-m, .inseam-m, .footlength-m, .jacketlength-m, .bicep-m, .wrist-m, .waistcoat-m, .pantswaistband-m, .rise-m, .thigh-m, .knee-m, .headsize-m, .glovesize-m');
+  var $modItemsMan = $('.chest-m, .waist-m, .upperbody-m, .waisband-m, .hips-m, .shoulder-m, .sleevelength-m, .outseam-m, .inseam-m, .neck-m, .jacketlength-m, .bicep-m, .wrist-m, .rise-m, .thigh-m, .knee-m');
 
   $modItemsMan.on('click', function ( e ) {
     $.fn.custombox( this, modalSettings);
@@ -17,7 +17,7 @@ $(function () {
 
   // women
 
-  var $modItemsWoman = $('.neck-w, .shoulder-w, .bust-w, .underbust-w, .sleevelength-w, .waist-w, .hips-w, .outseam-w, .inseam-w, .footlength-w, .jacketlength-w, .bicep-w, .wrist-w, .waistcoat-w, .bustpoint-w, .waistpoint-w, .skirtlength-w, .pantswaistband-w, .rise-w, .thigh-w, .knee-w, .headsize-w, .glovesize-w');
+  var $modItemsWoman = $('.bust-w, .waist-w, .hips-w, .shoulder-w, .sleevelength-w, .waistpoint-w, .outseam-w, .inseam-w, .neck-w, .underbust-w, .bicep-w, .wrist-w, .bustpoint-w, .rise-w, .thigh-w, .knee-w');
 
    $modItemsWoman.on('click', function ( e ) {
     $.fn.custombox( this, modalSettings);
