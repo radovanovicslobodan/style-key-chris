@@ -1,20 +1,22 @@
 $(function () {
-  var settings = {
+  var modalSettings = {
     effect : 'fadein',
-    position :'center',
+    position :'center, bottom',
     overlayColor :'#fff',
     overlayOpacity :'0.5'
   };
 
   // men
 
-  var $modItems = $('.weight-m, .neck-m, .shoulder-m, .chest-m, .sleevelength-m, .waist-m, .hips-m, .outseam-m, .inseam-m, .footlength-m, .jacketlength-m, .bicep-m, .wrist-m, .waistcoat-m, .pantswaistband-m, .rise-m, .thigh-m, .knee-m, .headsize-m, .glovesize-m');
+  var $modItemsMan = $('.weight-m, .neck-m, .shoulder-m, .chest-m, .sleevelength-m, .waist-m, .hips-m, .outseam-m, .inseam-m, .footlength-m, .jacketlength-m, .bicep-m, .wrist-m, .waistcoat-m, .pantswaistband-m, .rise-m, .thigh-m, .knee-m, .headsize-m, .glovesize-m');
 
-  $modItems.on('click', function ( e ) {
-    $.fn.custombox( this, settings);
+  // women
+  // .....
+
+  $modItemsMan.on('click', function ( e ) {
+    $.fn.custombox( this, modalSettings);
     e.preventDefault();
   });
 
-  // women
 
 });
