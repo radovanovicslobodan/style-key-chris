@@ -8,7 +8,7 @@ $(function () {
 
   // men
 
-  var $modItemsMan = $('.weight-m, .neck-m, .shoulder-m, .chest-m, .sleevelength-m, .waist-m, .hips-m, .outseam-m, .inseam-m, .footlength-m, .jacketlength-m, .bicep-m, .wrist-m, .waistcoat-m, .pantswaistband-m, .rise-m, .thigh-m, .knee-m, .headsize-m, .glovesize-m');
+  var $modItemsMan = $('.weight-m, .neck-m, .shoulder-m, .chest-m, .sleevelength-m, .waist-m, .upperbody-m, .waisband-m, .hips-m, .outseam-m, .inseam-m, .footlength-m, .jacketlength-m, .bicep-m, .wrist-m, .waistcoat-m, .pantswaistband-m, .rise-m, .thigh-m, .knee-m, .headsize-m, .glovesize-m');
 
   $modItemsMan.on('click', function ( e ) {
     $.fn.custombox( this, modalSettings);
