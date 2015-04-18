@@ -1,3 +1,12 @@
+/* 
+Author: Slobodan Radovanovic
+Desctiption: 
+  This css code is for modal windows which 
+  appears on pages: measurements-men.html 
+  and measurements-women.html. It also contains some fixes for the
+  apperiance of the canvas in firefox browser (same pages)
+*/
+
 .field-wrap > div {
 	margin-right: 8px;
 }
@@ -7,29 +16,36 @@
 	margin-left: 5px;
 	padding-right: 1px;
 	line-height: 22px;
-	border: 1px solid #1F616A;
+	border: 1px solid #1f616a;
 	border-radius: 12px;
 	font-style: italic;
 	text-align: center;
-	color: #1F616A;
+	color: #1f616a;
 	cursor: pointer;
 }
-.height-m, .height-w {
+.height-m,
+.height-w {
 	margin-left: 11px;
-  	margin-top: 3px;
+	margin-top: 3px;
 }
-.custombox-show, .custombox-close {
+.custombox-show,
+.custombox-close {
 	left: 38% !important;
 }
 @-moz-document url-prefix() {
-    .custombox-show, .custombox-close {
-    	left: 56% !important;
-    }
-	/* 3d image (canvas) fix for firefox */
-    canvas {
-    	margin-top: 0;
+	.custombox-show,
+	.custombox-close {
+		left: 56% !important;
+	}
+	.info-btn {
+		width: 19px;
+		padding-right: 3px;
+	}
+	/* 3d model size and position (canvas) fix for firefox */
+	canvas {
+		width: 1050px !important;
+		margin-top: 0;
 		margin-left: -320px;
-	    width: 1050px !important;
 	}
 }
 .info-btn:hover {
@@ -40,12 +56,12 @@
 	background: #fff;
 	padding: 20px;
 	border: 1px solid #767678;
-  	-webkit-border-radius: 3px; 
-  	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
 	border-radius: 3px;
-	-webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.1);
-	-moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.1);
-	box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.1);
 	overflow: hidden;
 }
 .col-1-2 {
@@ -65,9 +81,9 @@
 .col-1-2 h3 {
 	position: relative;
 	padding-left: 15px;
-  	margin-bottom: 40px;
+	margin-bottom: 40px;
 	font-size: 20px;
-  	color: #000;
+	color: #000;
 }
 .col-1-2 h3:before {
 	display: inline-block;
@@ -78,12 +94,14 @@
 	height: 23px;
 	background: transparent url(../img/error.png) -204px -50px;
 }
-.col-1-2 ol {padding-left: 13px;}
+.col-1-2 ol {
+	padding-left: 13px;
+}
 .col-1-2 ol li {
 	line-height: 16px;
-	margin-bottom: 10px;	
+	margin-bottom: 10px;
 }
-.modal-close { 
+.modal-close {
 	position: absolute;
 	width: 35px;
 	top: -6px;
@@ -95,7 +113,7 @@
 	line-height: 40px;
 	text-align: center;
 	cursor: pointer;
-}	
+}
 .modal-close:hover {
-	background: #4C8687;
-} 					
+	background: #4c8687;
+}
