@@ -1,3 +1,6 @@
+.field-wrap > div {
+  margin-right: 8px;
+}
 .info-btn {
 	display: inline-block;
 	width: 21px;
@@ -10,6 +13,10 @@
 	text-align: center;
 	color: #1F616A;
 	cursor: pointer;
+}
+.height-m, .height-w {
+	margin-left: 11px;
+  	margin-top: 3px;
 }
 .custombox-show, .custombox-close {left: 38% !important;}
 @-moz-document url-prefix() {
