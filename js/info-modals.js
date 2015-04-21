@@ -1,3 +1,11 @@
+/* 
+Author: Slobodan Radovanovic
+Desctiption: 
+  This jQuery code is for modal windows which 
+  appears on pages: measurements-men.html 
+  and measurements-women.html
+*/
+
 $(function() {
   var modalSettings = {
     effect: "fadein",
